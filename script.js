@@ -2,7 +2,7 @@ let string = "";
 var ud;
 let buttons = document.querySelectorAll('.button');
 function setString() {
-  string = document.getElementById('input1').value;
+  string = document.getElementById('input').value;
   console.log(string);
 }
 console.log(string);

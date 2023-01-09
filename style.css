@@ -1,8 +1,10 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
-.button{
+
+.button {
   width: 66px;
   padding: 20px;
   margin: 0 3px;
@@ -11,10 +13,11 @@ html, body {
   cursor: pointer;
 }
 
-.row{
+.row {
   margin: 8px 0;
 }
-.row input{
+
+.row input {
   width: 291px;
   font-size: 20px;
   margin: 0;
@@ -22,10 +25,11 @@ html, body {
   border: 2px solid black;
   border-radius: 5px;
 }
-.container{
+
+.container {
   margin: auto;
   background: pink;
   width: fit-content;
   padding: 20px;
-  border:2px solid black ;
+  border: 2px solid black;
 }

@@ -27,6 +27,12 @@ Array.from(buttons).forEach((button)=>{
       string = ""
       document.querySelector('input').value = string;
     }
+    else if(e.target.innerHTML == '%'){
+      string = string + e.target.innerHTML;
+      size = string.length;
+      n = Number(string.substring(0, size-1));
+      document.querySelector('input').value = n/100;
+    }
     else{ 
     console.log(e.target)
     string = string + e.target.innerHTML;
